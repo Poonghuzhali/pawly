@@ -9,7 +9,7 @@ function App() {
       <nav className="navbar">
         <div className="container nav-container">
           <div className="nav-logo">
-            <img src="/images/img_2.png" alt="Pawly" className="logo-img" />
+            <img src={`${import.meta.env.BASE_URL}images/img_2.png`} alt="Pawly" className="logo-img" />
             <span className="logo-text">Pawly</span>
           </div>
           <div className={`nav-links ${menuOpen ? 'active' : ''}`}>
@@ -47,7 +47,7 @@ function App() {
             </div>
           </div>
           <div className="hero-image">
-            <img src="/images/img_4.png" alt="Happy pets" />
+            <img src={`${import.meta.env.BASE_URL}images/img_4.png`} alt="Happy pets" />
           </div>
         </div>
       </section>
@@ -55,7 +55,7 @@ function App() {
       <section id="about" className="about">
         <div className="container about-container">
           <div className="about-image">
-            <img src="/images/img_14.png" alt="About Pawly" />
+            <img src={`${import.meta.env.BASE_URL}images/img_14.png`} alt="About Pawly" />
           </div>
           <div className="about-content">
             <h5 className="section-subtitle">About Us</h5>
@@ -89,28 +89,28 @@ function App() {
           <div className="services-grid">
             <div className="service-card">
               <div className="service-icon">
-                <img src="/images/img_6.png" alt="Pet Grooming" />
+                <img src={`${import.meta.env.BASE_URL}images/img_6.png`} alt="Pet Grooming" />
               </div>
               <h3>Pet Grooming</h3>
               <p>Professional grooming services to keep your pet looking and feeling great.</p>
             </div>
             <div className="service-card">
               <div className="service-icon">
-                <img src="/images/img_7.png" alt="Pet Food" />
+                <img src={`${import.meta.env.BASE_URL}images/img_7.png`} alt="Pet Food" />
               </div>
               <h3>Premium Food</h3>
               <p>Nutritious and delicious food options for all breeds and sizes.</p>
             </div>
             <div className="service-card">
               <div className="service-icon">
-                <img src="/images/img_5.png" alt="Veterinary" />
+                <img src={`${import.meta.env.BASE_URL}images/img_5.png`} alt="Veterinary" />
               </div>
               <h3>Vet Care</h3>
               <p>Expert veterinary care and health checkups for your furry friends.</p>
             </div>
             <div className="service-card">
               <div className="service-icon">
-                <img src="/images/img_8.png" alt="Pet Toys" />
+                <img src={`${import.meta.env.BASE_URL}images/img_8.png`} alt="Pet Toys" />
               </div>
               <h3>Fun Toys</h3>
               <p>Exciting and safe toys to keep your pets entertained for hours.</p>
@@ -129,7 +129,7 @@ function App() {
           <div className="products-grid">
             <div className="product-card">
               <div className="product-img">
-                <img src="/images/img_29.png" alt="Pet Product" />
+                <img src={`${import.meta.env.BASE_URL}images/img_29.png`} alt="Pet Product" />
                 <span className="product-badge">New</span>
               </div>
               <div className="product-info">
@@ -143,7 +143,7 @@ function App() {
             </div>
             <div className="product-card">
               <div className="product-img">
-                <img src="/images/img_33.png" alt="Pet Product" />
+                <img src={`${import.meta.env.BASE_URL}images/img_33.png`} alt="Pet Product" />
               </div>
               <div className="product-info">
                 <h3>Organic Pet Food</h3>
@@ -156,7 +156,7 @@ function App() {
             </div>
             <div className="product-card">
               <div className="product-img">
-                <img src="/images/img_38.png" alt="Pet Product" />
+                <img src={`${import.meta.env.BASE_URL}images/img_38.png`} alt="Pet Product" />
                 <span className="product-badge sale">Sale</span>
               </div>
               <div className="product-info">
@@ -170,7 +170,7 @@ function App() {
             </div>
             <div className="product-card">
               <div className="product-img">
-                <img src="/images/img_48.png" alt="Pet Product" />
+                <img src={`${import.meta.env.BASE_URL}images/img_48.png`} alt="Pet Product" />
               </div>
               <div className="product-info">
                 <h3>Interactive Toy Set</h3>
@@ -196,7 +196,7 @@ function App() {
               <div className="testimonial-stars">★★★★★</div>
               <p>"Pawly has been a game changer for my dog Max. The products are top quality and my pup absolutely loves them!"</p>
               <div className="testimonial-author">
-                <img src="/images/img_49.png" alt="Sarah" />
+                <img src={`${import.meta.env.BASE_URL}images/img_49.png`} alt="Sarah" />
                 <div>
                   <h4>Sarah Johnson</h4>
                   <span>Pet Parent</span>
@@ -207,7 +207,7 @@ function App() {
               <div className="testimonial-stars">★★★★★</div>
               <p>"The grooming service is incredible! My cat Whiskers has never looked better. Highly recommend Pawly to all pet owners."</p>
               <div className="testimonial-author">
-                <img src="/images/img_50.png" alt="Mike" />
+                <img src={`${import.meta.env.BASE_URL}images/img_50.png`} alt="Mike" />
                 <div>
                   <h4>Mike Thompson</h4>
                   <span>Pet Parent</span>
@@ -218,7 +218,7 @@ function App() {
               <div className="testimonial-stars">★★★★★</div>
               <p>"Fast delivery and amazing customer service. The pet food selection is fantastic and my picky eater loves every flavor!"</p>
               <div className="testimonial-author">
-                <img src="/images/img_51.png" alt="Emily" />
+                <img src={`${import.meta.env.BASE_URL}images/img_51.png`} alt="Emily" />
                 <div>
                   <h4>Emily Davis</h4>
                   <span>Pet Parent</span>
@@ -240,7 +240,7 @@ function App() {
             </form>
           </div>
           <div className="newsletter-image">
-            <img src="/images/img_24.png" alt="Pets" />
+            <img src={`${import.meta.env.BASE_URL}images/img_24.png`} alt="Pets" />
           </div>
         </div>
       </section>
@@ -249,7 +249,7 @@ function App() {
         <div className="container footer-container">
           <div className="footer-col">
             <div className="footer-logo">
-              <img src="/images/img_2.png" alt="Pawly" />
+              <img src={`${import.meta.env.BASE_URL}images/img_2.png`} alt="Pawly" />
               <span>Pawly</span>
             </div>
             <p>Your trusted partner in pet care. We provide everything your furry friends need.</p>
